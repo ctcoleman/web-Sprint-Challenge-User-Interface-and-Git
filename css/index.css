@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -202,15 +202,38 @@ header .headerImage {
     margin: 20px 0;
 }
 
+/* about.html styling */
+.about {
+    margin: 3vh 0;
+    padding: 10px;
+    border-bottom: 2px dotted black;
+}
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
 
+.mainContent article {
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+    border-bottom: 2px dotted;
+}
+.mainContent article a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    marign: 10px;
+}
 
-
-
-
-
-
-
-
+.workTogether {
+    padding: 4vh 1vh;
+}
 
 
 
