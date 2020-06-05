@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -111,6 +111,41 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:hover {
+    height: 200px;
+    width: 25%;
+    border: 5px solid green;
+}
+.middle-content .boxes .box1{
+    background: teal;
+}
+.middle-content .boxes .box2{
+    background: gold;
+}
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+.middle-content .boxes .box4{
+    background: coral;
+}
+.middle-content .boxes .box5{
+    background: crimson;
+}
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+.middle-content .boxes .box9{
+    background: indigo;
+}
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -144,3 +179,93 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+footer nav a:hover{
+    opacity: 0.6;
+}
+
+/*
+------Header Navigation Bar Styling------
+*/
+
+header .headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+header .headerNav a{
+    flex: 1 1 100%;
+    color: black;
+    text-decoration: none;
+    font: 1rem "Rubik";
+}
+header .headerNav a:hover {
+    opacity: 0.6;
+}
+header .headerNav img {
+    margin-right: 5vw;
+    padding-bottom: 20px;
+}
+header .headerImage {
+    margin: 20px 0;
+}
+
+
+/* about.html styling */
+.about {
+    margin: 3vh 0;
+    padding: 10px;
+    border-bottom: 2px dotted black;
+}
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.mainContent article {
+    margin: 3px;
+    padding: 10px;
+    flex: 1;
+    border-bottom: 2px dotted;
+}
+.mainContent article img:hover {
+    border: 1px solid black;
+}
+.mainContent article a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    marign: 10px;
+}
+.mainContent article a:hover {
+    background: black;
+    color: white;
+}
+.workTogether {
+    padding: 4vh 1vh;
+}
+
+/*
+-----Contact Page Form Styling----
+*/
+
+form ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+form li {
+    flex: 1;
+    margin: 10px;
+}
+
+
+
